@@ -641,7 +641,8 @@ void)
 #ifdef OTOOL_NG_SUPPORT	
 	fprintf(stderr, "\t-z modify current PIE flag\n");
 	fprintf(stderr, "\t-O <offset> file offset where to start reading Mach-O header from (default is 0)\n");
-#endif	
+#endif
+    fprintf(stderr, "***otool魏鹏飞修正版***\n");
 	exit(EXIT_FAILURE);
 }
 
